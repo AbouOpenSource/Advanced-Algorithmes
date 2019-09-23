@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/MyFactory.h
+array
+-
+iostream
+-
+
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/Student.cpp
+Student.h
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/Student.h
+
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/Student.h
+string
+-
+
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/main.cpp
+iostream
+-
+Student.h
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/Student.h
+MyFactory.h
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/hashTable/MyFactory.h
+

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../glutInterface/glutWindow.h
+iostream
+-
+string
+-
+cassert
+-
+cmath
+-
+GL/freeglut.h
+-
+GLUT/glut.h
+-
+
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/BST/BST.h
+iostream
+-
+algorithm
+-
+vector
+-
+
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/BST/main.cpp
+iostream
+-
+BST.h
+/home/abou/Bureau/COURS M1 IOT/Advanced Algorithms/Exercice/2.3 List and Hash table/BST/BST.h
+vector
+-
+cstdlib
+-
+glutWindow.h
+-
+
